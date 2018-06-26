@@ -1,5 +1,5 @@
 //
-//  main.m
+//  CircusProtocol.h
 //  Objective-C basics
 //
 //  Created by Marcin Włoczko on 26.06.2018.
@@ -7,11 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Animal.h"
 
-int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        
-    }
-    return 0;
-}
+@protocol CircusProtocol <NSObject>
+
+-(NSString*) animalsIntroduction;
+-(NSString*) show;
+-(NSInteger) patter:(NSInteger) howMuch;
+
+@end

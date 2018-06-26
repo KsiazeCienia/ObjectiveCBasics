@@ -1,5 +1,5 @@
 //
-//  main.m
+//  ZooProtocol.h
 //  Objective-C basics
 //
 //  Created by Marcin Włoczko on 26.06.2018.
@@ -7,11 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Animal.h"
 
-int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        
-    }
-    return 0;
-}
+@protocol ZooProtocol <NSObject>
+
+@end

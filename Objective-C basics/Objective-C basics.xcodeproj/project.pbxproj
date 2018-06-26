@@ -49,6 +49,8 @@
 		C1BF7A4A20E2336D0052D876 /* Elephant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Elephant.m; sourceTree = "<group>"; };
 		C1BF7A4C20E233920052D876 /* Giraffe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Giraffe.h; sourceTree = "<group>"; };
 		C1BF7A4D20E233920052D876 /* Giraffe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Giraffe.m; sourceTree = "<group>"; };
+		C1BF7A4F20E240D30052D876 /* CircusProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircusProtocol.h; sourceTree = "<group>"; };
+		C1BF7A5020E2418C0052D876 /* ZooProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZooProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,8 @@
 				C1BF7A3A20E231720052D876 /* Circus.m */,
 				C1BF7A3C20E231C90052D876 /* Zoo.h */,
 				C1BF7A3D20E231C90052D876 /* Zoo.m */,
+				C1BF7A4F20E240D30052D876 /* CircusProtocol.h */,
+				C1BF7A5020E2418C0052D876 /* ZooProtocol.h */,
 			);
 			path = "Objective-C basics";
 			sourceTree = "<group>";
