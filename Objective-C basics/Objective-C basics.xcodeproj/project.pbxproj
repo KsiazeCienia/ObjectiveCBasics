@@ -83,14 +83,13 @@
 		C1BF7A2E20E2304A0052D876 /* Objective-C basics */ = {
 			isa = PBXGroup;
 			children = (
+				C1BF7A5120E241F10052D876 /* Protocols */,
 				C1BF7A3F20E231E30052D876 /* Animals */,
 				C1BF7A2F20E2304A0052D876 /* main.m */,
 				C1BF7A3920E231720052D876 /* Circus.h */,
 				C1BF7A3A20E231720052D876 /* Circus.m */,
 				C1BF7A3C20E231C90052D876 /* Zoo.h */,
 				C1BF7A3D20E231C90052D876 /* Zoo.m */,
-				C1BF7A4F20E240D30052D876 /* CircusProtocol.h */,
-				C1BF7A5020E2418C0052D876 /* ZooProtocol.h */,
 			);
 			path = "Objective-C basics";
 			sourceTree = "<group>";
@@ -112,6 +111,15 @@
 				C1BF7A4D20E233920052D876 /* Giraffe.m */,
 			);
 			path = Animals;
+			sourceTree = "<group>";
+		};
+		C1BF7A5120E241F10052D876 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C1BF7A4F20E240D30052D876 /* CircusProtocol.h */,
+				C1BF7A5020E2418C0052D876 /* ZooProtocol.h */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

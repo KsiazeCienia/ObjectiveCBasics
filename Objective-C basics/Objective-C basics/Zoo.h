@@ -7,10 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ZooProtocol.h"
 
-@interface Zoo : NSObject
+@interface Zoo : NSObject <ZooProtocol>
 
 @property NSString *name;
 @property NSMutableArray *animals;
+
+- (instancetype)initWithName: (NSString*) defaultName;
 
 @end

@@ -10,4 +10,6 @@
 
 @protocol ZooProtocol <NSObject>
 
+-(NSString*) sounds;
+
 @end

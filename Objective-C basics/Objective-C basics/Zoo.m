@@ -7,7 +7,25 @@
 //
 
 #import "Zoo.h"
+#import "Animal.h"
 
 @implementation Zoo
+
+- (instancetype)initWithName: (NSString*) defaultName {
+    self = [super init];
+    if (self) {
+        self.name = defaultName;
+        self.animals = [NSMutableArray new];
+    }
+    return self;
+}
+
+- (NSString *)sounds {
+    NSString *sounds = @"";
+    for (Animal *animal in self.animals) {
+        sounds = [sounds stringByAppendingString:animal.sound];
+    }
+    return sounds;
+}
 
 @end
