@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		C1BF7A3020E2304A0052D876 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BF7A2F20E2304A0052D876 /* main.m */; };
+		C1BF7A3820E230BE0052D876 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BF7A3720E230BE0052D876 /* Animal.m */; };
+		C1BF7A3B20E231720052D876 /* Circus.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BF7A3A20E231720052D876 /* Circus.m */; };
+		C1BF7A3E20E231C90052D876 /* Zoo.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BF7A3D20E231C90052D876 /* Zoo.m */; };
+		C1BF7A4220E231F80052D876 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BF7A4120E231F80052D876 /* Cat.m */; };
+		C1BF7A4520E232360052D876 /* Pony.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BF7A4420E232360052D876 /* Pony.m */; };
+		C1BF7A4820E2333A0052D876 /* Ant.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BF7A4720E2333A0052D876 /* Ant.m */; };
+		C1BF7A4B20E2336D0052D876 /* Elephant.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BF7A4A20E2336D0052D876 /* Elephant.m */; };
+		C1BF7A4E20E233920052D876 /* Giraffe.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BF7A4D20E233920052D876 /* Giraffe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +33,22 @@
 /* Begin PBXFileReference section */
 		C1BF7A2C20E2304A0052D876 /* Objective-C basics */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Objective-C basics"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1BF7A2F20E2304A0052D876 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1BF7A3620E230BE0052D876 /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		C1BF7A3720E230BE0052D876 /* Animal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		C1BF7A3920E231720052D876 /* Circus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Circus.h; sourceTree = "<group>"; };
+		C1BF7A3A20E231720052D876 /* Circus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Circus.m; sourceTree = "<group>"; };
+		C1BF7A3C20E231C90052D876 /* Zoo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Zoo.h; sourceTree = "<group>"; };
+		C1BF7A3D20E231C90052D876 /* Zoo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Zoo.m; sourceTree = "<group>"; };
+		C1BF7A4020E231F80052D876 /* Cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		C1BF7A4120E231F80052D876 /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		C1BF7A4320E232360052D876 /* Pony.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pony.h; sourceTree = "<group>"; };
+		C1BF7A4420E232360052D876 /* Pony.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pony.m; sourceTree = "<group>"; };
+		C1BF7A4620E2333A0052D876 /* Ant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ant.h; sourceTree = "<group>"; };
+		C1BF7A4720E2333A0052D876 /* Ant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ant.m; sourceTree = "<group>"; };
+		C1BF7A4920E2336D0052D876 /* Elephant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Elephant.h; sourceTree = "<group>"; };
+		C1BF7A4A20E2336D0052D876 /* Elephant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Elephant.m; sourceTree = "<group>"; };
+		C1BF7A4C20E233920052D876 /* Giraffe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Giraffe.h; sourceTree = "<group>"; };
+		C1BF7A4D20E233920052D876 /* Giraffe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Giraffe.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +81,33 @@
 		C1BF7A2E20E2304A0052D876 /* Objective-C basics */ = {
 			isa = PBXGroup;
 			children = (
+				C1BF7A3F20E231E30052D876 /* Animals */,
 				C1BF7A2F20E2304A0052D876 /* main.m */,
+				C1BF7A3920E231720052D876 /* Circus.h */,
+				C1BF7A3A20E231720052D876 /* Circus.m */,
+				C1BF7A3C20E231C90052D876 /* Zoo.h */,
+				C1BF7A3D20E231C90052D876 /* Zoo.m */,
 			);
 			path = "Objective-C basics";
+			sourceTree = "<group>";
+		};
+		C1BF7A3F20E231E30052D876 /* Animals */ = {
+			isa = PBXGroup;
+			children = (
+				C1BF7A3620E230BE0052D876 /* Animal.h */,
+				C1BF7A3720E230BE0052D876 /* Animal.m */,
+				C1BF7A4020E231F80052D876 /* Cat.h */,
+				C1BF7A4120E231F80052D876 /* Cat.m */,
+				C1BF7A4320E232360052D876 /* Pony.h */,
+				C1BF7A4420E232360052D876 /* Pony.m */,
+				C1BF7A4620E2333A0052D876 /* Ant.h */,
+				C1BF7A4720E2333A0052D876 /* Ant.m */,
+				C1BF7A4920E2336D0052D876 /* Elephant.h */,
+				C1BF7A4A20E2336D0052D876 /* Elephant.m */,
+				C1BF7A4C20E233920052D876 /* Giraffe.h */,
+				C1BF7A4D20E233920052D876 /* Giraffe.m */,
+			);
+			path = Animals;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +166,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1BF7A3E20E231C90052D876 /* Zoo.m in Sources */,
+				C1BF7A4820E2333A0052D876 /* Ant.m in Sources */,
 				C1BF7A3020E2304A0052D876 /* main.m in Sources */,
+				C1BF7A3B20E231720052D876 /* Circus.m in Sources */,
+				C1BF7A4520E232360052D876 /* Pony.m in Sources */,
+				C1BF7A3820E230BE0052D876 /* Animal.m in Sources */,
+				C1BF7A4B20E2336D0052D876 /* Elephant.m in Sources */,
+				C1BF7A4220E231F80052D876 /* Cat.m in Sources */,
+				C1BF7A4E20E233920052D876 /* Giraffe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
