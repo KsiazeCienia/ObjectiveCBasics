@@ -31,7 +31,7 @@ int main(int argc, const char * argv[]) {
         NSLog(@"Tricks: %@ ", tricks);
         
         NSInteger patter = [circus patter:4];
-        NSLog(@"Patter: %ld", (long)patter);
+        NSLog(@"Patter: %ld", patter);
         
     }
     return 0;
