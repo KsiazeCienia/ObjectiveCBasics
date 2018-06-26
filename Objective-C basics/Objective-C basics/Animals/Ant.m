@@ -10,4 +10,27 @@
 
 @implementation Ant
 
+- (instancetype)initWithName:(NSString *)defaultName {
+    self = [super init];
+    if (self) {
+        self.name = defaultName;
+        self.weight = 0.05;
+        self.hasFur = NO;
+        self.isQueen = NO;
+    }
+    return self;
+}
+
+-(NSString*) sound {
+    return @"Kszy";
+}
+
+-(NSString*) trick {
+    return @"Carry heavy things";
+}
+
+-(NSInteger) countLegs {
+    return 6;
+}
+
 @end

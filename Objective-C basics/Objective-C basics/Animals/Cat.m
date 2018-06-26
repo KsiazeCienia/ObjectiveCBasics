@@ -10,13 +10,27 @@
 
 @implementation Cat
 
-- (instancetype)init
-{
+- (instancetype)initWithName:(NSString *)defaultName {
     self = [super init];
     if (self) {
-        <#statements#>
+        self.name = defaultName;
+        self.weight = 5.0;
+        self.hasFur = YES;
+        self.color = @"brown";
     }
     return self;
+}
+
+-(NSString*) sound {
+    return @"Miau";
+}
+
+-(NSString*) trick {
+    return @"do somersault";
+}
+
+-(NSInteger) countLegs {
+    return 4;
 }
 
 @end

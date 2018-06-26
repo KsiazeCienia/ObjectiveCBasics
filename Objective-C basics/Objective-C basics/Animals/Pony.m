@@ -10,6 +10,27 @@
 
 @implementation Pony
 
+- (instancetype)initWithName:(NSString *)defaultName {
+    self = [super init];
+    if (self) {
+        self.name = defaultName;
+        self.weight = 100.0;
+        self.hasFur = YES;
+        self.isMagic = NO;
+    }
+    return self;
+}
 
+-(NSString*) sound {
+    return @"Iha";
+}
+
+-(NSString*) trick {
+    return @"Patataj";
+}
+
+-(NSInteger) countLegs {
+    return 4;
+}
 
 @end

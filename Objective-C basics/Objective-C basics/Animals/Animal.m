@@ -11,8 +11,8 @@
 @implementation Animal
 
 @synthesize name = _name;
-//@synthesize weight;
-//@synthesize hasFur;
+@synthesize weight = _weight;
+@synthesize hasFur = _hasFur;
 
 - (instancetype)initWithName:(NSString *)defaultName {
     if ([self isMemberOfClass:[Animal class]]) {
@@ -24,19 +24,19 @@
     return self;
 }
 
--(NSString*) sound {
+-(id) sound {
     [self doesNotRecognizeSelector:_cmd];
     return nil;
 }
 
--(NSString*) trick {
+-(id) trick {
     [self doesNotRecognizeSelector:_cmd];
     return nil;
 }
 
--(NSInteger*) countLegs {
+-(NSInteger) countLegs {
     [self doesNotRecognizeSelector:_cmd];
-    return nil;
+    return 0;
 }
 
 @end

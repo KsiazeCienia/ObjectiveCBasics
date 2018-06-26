@@ -16,8 +16,8 @@
 
 -(instancetype) initWithName:(NSString*) defaultName;
 
--(NSString*) sound;
--(NSString*) trick;
--(NSInteger*) countLegs;
+-(id) sound;
+-(id) trick;
+-(NSInteger) countLegs;
 
 @end

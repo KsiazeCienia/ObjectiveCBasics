@@ -10,4 +10,26 @@
 
 @implementation Giraffe
 
+- (instancetype)initWithName:(NSString *)defaultName {
+    self = [super init];
+    if (self) {
+        self.name = defaultName;
+        self.weight = 200.0;
+        self.hasFur = NO;
+    }
+    return self;
+}
+
+-(NSString*) sound {
+    return @"????";
+}
+
+-(NSString*) trick {
+    return @"Very tall";
+}
+
+-(NSInteger) countLegs {
+    return 4;
+}
+
 @end
